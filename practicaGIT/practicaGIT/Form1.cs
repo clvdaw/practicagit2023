@@ -34,8 +34,8 @@ namespace practicaGIT
             numPalabras = palabras.Length;
             if (rbUrgente.Checked)
                 tipoTelegrama = 'u';
-           
-            if (tipoTelegrama == 'u')
+
+            if (tipoTelegrama == 'u') 
                 if (numPalabras <= 10)
                     coste = 5;
                 else
@@ -46,7 +46,7 @@ namespace practicaGIT
                 else
                 coste = 2.5 + (0.5 * (numPalabras - 10));
 
-            txtPrecio.Text = coste.ToString() + " euros";
+            txtPrecio.Text = coste.ToString() + " euros"; //Código simplificado
         }
 
         private void rbOrdinario_CheckedChanged(object sender, EventArgs e)

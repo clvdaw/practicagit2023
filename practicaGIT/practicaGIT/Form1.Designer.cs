@@ -33,8 +33,7 @@ namespace practicaGIT
             this.txtTelegrama = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txtPrecio = new System.Windows.Forms.TextBox();
-            this.rbOrdinario = new System.Windows.Forms.RadioButton();
-            this.rbUrgente = new System.Windows.Forms.RadioButton();
+
             this.SuspendLayout();
             // 
             // button1
@@ -42,7 +41,8 @@ namespace practicaGIT
             this.button1.Location = new System.Drawing.Point(352, 250);
             this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(135, 62);
+            this.button1.Size = new System.Drawing.Size(180, 76);
+
             this.button1.TabIndex = 0;
             this.button1.Text = "Calcular";
             this.button1.UseVisualStyleBackColor = true;
