@@ -32,7 +32,7 @@ namespace practicaGIT
             textoTelegrama = txtTelegrama.Text;
             String[] palabras = textoTelegrama.Split(' ');
             numPalabras = palabras.Length;
-            if (cbUrgente.Checked)
+            if (rbUrgente.Checked)
                 tipoTelegrama = 'u';
            
             if (tipoTelegrama == 'u')
@@ -47,6 +47,11 @@ namespace practicaGIT
                 coste = 2.5 + (0.5 * (numPalabras - 10));
 
             txtPrecio.Text = coste.ToString() + " euros";
+        }
+
+        private void rbOrdinario_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
