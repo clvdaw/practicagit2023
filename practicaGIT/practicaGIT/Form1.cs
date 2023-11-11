@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -28,7 +28,6 @@ namespace practicaGIT
             char tipoTelegrama = ' ';
             int numPalabras = 0;
             double coste;
-
            
             textoTelegrama = txtTelegrama.Text;
             String[] palabras = textoTelegrama.Split(' ');
@@ -46,6 +45,7 @@ namespace practicaGIT
                     coste = 2.5;
                 else
                 coste = 2.5 + (0.5 * (numPalabras - 10));
+
             txtPrecio.Text = coste.ToString() + " euros";
         }
     }

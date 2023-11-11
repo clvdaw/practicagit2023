@@ -1,4 +1,4 @@
-﻿namespace practicaGIT
+namespace practicaGIT
 {
     partial class Form1
     {
@@ -29,11 +29,13 @@
         private void InitializeComponent()
         {
             this.button1 = new System.Windows.Forms.Button();
+
             this.label1 = new System.Windows.Forms.Label();
             this.txtTelegrama = new System.Windows.Forms.TextBox();
             this.cbUrgente = new System.Windows.Forms.CheckBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txtPrecio = new System.Windows.Forms.TextBox();
+
             this.SuspendLayout();
             // 
             // button1
@@ -41,6 +43,7 @@
             this.button1.Location = new System.Drawing.Point(469, 308);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(180, 76);
+
             this.button1.TabIndex = 0;
             this.button1.Text = "Calcular";
             this.button1.UseVisualStyleBackColor = true;
@@ -103,6 +106,7 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+
             this.ResumeLayout(false);
             this.PerformLayout();
 
