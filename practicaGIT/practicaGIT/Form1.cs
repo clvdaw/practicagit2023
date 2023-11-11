@@ -24,10 +24,11 @@ namespace practicaGIT
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string textoTelegrama;
+            string textoTelegrama;  
             char tipoTelegrama = ' ';
             int numPalabras = 0;
             double coste;
+
            
             textoTelegrama = txtTelegrama.Text;
             String[] palabras = textoTelegrama.Split(' ');
@@ -46,7 +47,7 @@ namespace practicaGIT
                 else
                 coste = 2.5 + (0.5 * (numPalabras - 10));
 
-            txtPrecio.Text = coste.ToString() + " euros"; //Código simplificado
+            txtPrecio.Text = coste.ToString() + " euros"; //Código corregido
         }
 
         private void rbOrdinario_CheckedChanged(object sender, EventArgs e)
